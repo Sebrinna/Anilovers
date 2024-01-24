@@ -1,0 +1,67 @@
+
+.main_bg {
+  position: relative;
+  width: 95vw;
+  height: 630px;
+  background-image: url(../img/pixar_main.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.main_bg p {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  font-size: 100px;
+  letter-spacing: 3px;
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+main {
+  padding: 25px 0 50px;
+}
+
+#st1 ul,
+#st2 ul,
+#st3 ul,
+#st4 ul,
+#st5 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+
+}
+
+#st1 {
+  margin-top: 50px;
+}
+
+section img {
+  width: 300px;
+}
+
+/* ----------------movie title------------- */
+
+#st1 ul li p,
+#st2 ul li p,
+#st3 ul li p,
+#st4 ul li p,
+#st5 ul li p {
+  text-align: center;
+  margin-top: 15px;
+  color:antiquewhite;
+  font-size: 18px;
+}
+
+.sns svg {
+  width: 2vw;
+  margin: 0 10px 0;
+  transition: 0.3s;
+}
+
+.sns svg:hover {
+  transform: scale(1.2);
+}
